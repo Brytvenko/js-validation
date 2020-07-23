@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Validation for Form</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script async src="/js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+      <img src="/img/undraw_secure_login_pdn4.svg" />
+      <h2>Sign Up</h2>
+      <figure>
+        <span><img src="/img/SVG/user.svg" alt="" class="img" /></span>
+        <figcaption>LOGIN</figcaption>
+        <input type="text" placeholder="User Name" autofocus />
+        <span class="err-messages"></span>
+      </figure>
+      <figure>
+        <span><img src="/img/SVG/envelope.svg" alt="" class="img" /></span>
+        <figcaption>EMAIL</figcaption>
+        <input type="email" class="pe" placeholder=" Enter Email" />
+        <span class="err-messages"></span>
+      </figure>
+      <figure>
+        <span><img src="/img/SVG/key.svg" alt="" class="img" /></span>
+        <figcaption>PASSWORD</figcaption>
+        <input type="password" class="password" placeholder=" Your password" />
+        <span class="err-messages"></span>
+      </figure>
+      <figure>
+        <span><img src="/img/SVG/locked.svg" alt="" class="img" /></span>
+        <figcaption>CONFIRM</figcaption>
+        <input
+          type="password"
+          class="password2"
+          placeholder="Repeat password"
+        />
+        <span class="err-messages"></span>
+      </figure>
+      <button type="submit" class="button__send">BUTTON</button>
+      <button type="reset" class="button__reset">RESET</button>
+    </form>
+  </body>
+</html>
